@@ -5,7 +5,7 @@ import {styles} from '../styles/index';
 import { navVariants } from '../utils/motion';
 const Navbar = () => (
   <motion.nav
-    variants={navVariants}
+    variants= {navVariants}
     initial="hidden"
     whileInView="show"
     className={ `${styles.xPaddings} py-8 relative`}>
@@ -23,3 +23,4 @@ const Navbar = () => (
 );
 
 export default Navbar;
+
